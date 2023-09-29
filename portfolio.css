@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(39, 8, 62);
+    margin:0;
+    padding:0;
+}
+.part{
+    background-color: rgb(2, 4, 4);
+    border: solid black 2px;
+    height: 150px;
+    margin-top:1%;
+    display: flex; 
+    align-items: center;/* Vertical */
+    justify-content: center;/* Horizontal */
+
+}
+
+span{
+    font-size: 100px; /* Tamaño de fuente grande */
+    color: rgb(255, 255, 255); /* Color de fuente rojo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 5px; /* Espaciado entre letras */
+    padding: 10px; /* Espaciado interno */
+    display: inline-block;/*se comporta como elemento de linea*/
+    transition: transform 0.15s,color 0.8s; /* Transiciones de animación */
+}
+
+span:hover{
+    transform: scale(1.1); /* Escala el elemento al pasar el cursor */
+    color: #945002; /* Cambia el color de fuente al pasar el cursor  */
+    font-style: italic;
+}
+
+#cabecera{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;/* Vertical */
+    justify-content: center;/* Horizontal */
+    padding: 2%;
+    font-size: 60px;
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
